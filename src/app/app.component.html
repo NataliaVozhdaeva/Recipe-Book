@@ -1,35 +1,9 @@
+<app-header class="header"></app-header>
 <div class="container">
   <div class="row">
-    <div class="col-xs-8">
-      <h3 class="title">This is my title!</h3>
-      <hr />
-      <!--  <label for="">User name</label>
-      <input type="text" class="form-control" [(ngModel)]="userName" />
-      <p>{{ userName }}</p>
-      <button
-        class="btn btn-primary"
-        [disabled]="userName === ''"
-        (click)="userName = ''"
-      >
-        Reset user
-      </button>
-      <hr />
-      <app-servers></app-servers>
-      <hr />
-      <button class="btn btn-info" (click)="showSecret = !showSecret">
-        Display details
-      </button> -->
-      <button class="btn btn-info" (click)="onToggledetails()">
-        Display details
-      </button>
-      <p *ngIf="showSecret">password is tuna</p>
-      <div
-        *ngFor="let logItem of log; let i = index"
-        [ngStyle]="{ backgroundColor: i >= 2 ? 'blue' : 'transparent' }"
-        [ngClass]="{ 'white-text': i >= 2 }"
-      >
-        {{ logItem }}
-      </div>
+    <div class="col-ms-12">
+      <app-recipes></app-recipes>
+      <app-shopping-list></app-shopping-list>
     </div>
   </div>
 </div>
