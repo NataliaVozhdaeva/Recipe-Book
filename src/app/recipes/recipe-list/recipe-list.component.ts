@@ -14,13 +14,13 @@ export class RecipeListComponent implements OnInit {
       'https://get.pxhere.com/photo/dish-meal-food-produce-recipe-fish-breakfast-meat-pork-cuisine-steak-pork-chop-power-dishes-grilling-fried-food-604134.jpg'
     ),
     new Recipe(
-      'testRecipeName',
-      'testRecipe Description',
+      'Other Recipe name',
+      'Other Recipe',
       'https://get.pxhere.com/photo/dish-meal-food-produce-recipe-fish-breakfast-meat-pork-cuisine-steak-pork-chop-power-dishes-grilling-fried-food-604134.jpg'
     ),
     new Recipe(
-      'testRecipeName',
-      'testRecipe Description',
+      'Ones more RecipeName',
+      'And ones more Description',
       'https://get.pxhere.com/photo/dish-meal-food-produce-recipe-fish-breakfast-meat-pork-cuisine-steak-pork-chop-power-dishes-grilling-fried-food-604134.jpg'
     ),
   ];
